@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(14, 10, 10);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
+    max-height: 100%;
+    margin: 5% auto;
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 100%;
+    min-height: 10%;
+}
+
+.display,.estilo,.cor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 150px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.alinha{
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(179, 201, 202);
+}
+
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.roxo{
+    background-color: blueviolet;
+}
+.preto{
+    background-color: black;
+}
+p.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+span{
+    width: 50px;
+    text-align: center;
+}
